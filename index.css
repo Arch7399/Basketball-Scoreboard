@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-image: url("basketball.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+h1 {
+  position: absolute;
+  top: -10px;
+  left: 115px;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+}
+
+.reset {
+  position: absolute;
+  width: 75px;
+  top: 195px;
+}
+
+.title-home {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.score-div-home {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 155px;
+    background: black;
+    border-radius: 3px;
+}
+
+.title-guest {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.score-div-guest {
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 337px;
+  top: 155px;
+  background: black;
+  border-radius: 3px;
+}
+
+.score-btns1 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 300px;
+  left: 82px;
+}
+
+.score-btns2 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 300px;
+  left: 337px;
+}
+
+button {
+  height: 45px;
+  width: 45px;
+}
+
+.counter1 {
+  position: relative;
+  width: 117px;
+  height: 120px;
+  left: 20px;
+  top: -95px;
+
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #F94F6D;
+}
+
+.counter2 {
+  position: relative;
+  width: 117px;
+  height: 120px;
+  left: 20px;
+  top: -95px;
+
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #F94F6D;
+
+}
